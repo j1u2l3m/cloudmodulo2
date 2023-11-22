@@ -7,11 +7,11 @@ def listar_tablas():
   
   opcion =  1
   
-  while opcion 1 = 0:
+  while opcion  != 0:
       print("Ingrese la opc que desea")
       print("1.listar tablas de dyanmodb de la cuenta")
       print("0. Salir")
-      opcion =int(input())
+      opcion = int(input())
     if opcion == 1:
       listar_tablas()
     elif opcion  == 0:
